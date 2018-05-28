@@ -1,0 +1,332 @@
+/* 
+
+Base
+______________________________________________________________________________ 
+*/
+
+body {
+	background-color: #ccc;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+}
+p {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0;
+}
+button {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+	background-color: #FFE344;
+	width: 100%;
+	border: none;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 4px;
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+	margin-bottom: 12px;
+}
+button:hover {
+	cursor: pointer;
+}
+.secondary-button {
+	background-color: #fff;
+	color: #333;
+}
+.blue-button {
+	background-color: #001CB0;
+	color: #fff;
+}
+/* 
+
+Wrapper
+______________________________________________________________________________ 
+*/
+
+.content-wrapper {
+	width: 375px;
+	margin: 0 auto;
+	background-color: #F9F9F9;
+}
+
+
+/* 
+
+Header + logo
+______________________________________________________________________________ 
+*/
+.header {
+	height: 50px;
+	overflow: hidden;
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+}
+.header img {
+	width: 100%;
+	height: auto;
+}
+
+/* 
+
+welcome page
+______________________________________________________________________________ 
+*/
+.content-welcome .intro-image img {
+	width: 100%;
+	height: auto;
+}
+.intro-content {
+	padding: 20px 20px;
+}
+.content-welcome h1 {
+	font-size: 26px;
+	margin-bottom: 15px;
+}
+.content-welcome p {
+	margin-bottom: 20px;
+}
+
+.image-full-width img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+/* 
+
+input styles
+______________________________________________________________________________ 
+*/
+.input-card {
+	background: #FFFFFF;
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+	padding: 20px;
+	margin: 20px;
+	margin-bottom: 85px;
+}
+.card-ill img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 40px;
+}
+.input-card h1 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.input-card p {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.text-button {
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	font-weight: 600;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+}
+.text-button a {
+	text-decoration: none;
+	color: #091DB0!important;
+}
+
+.card-content ul {
+	margin-top: -10px;
+	font-size: 14px;
+	padding-left: 20px;
+}
+.card-content ul li {
+	margin-bottom: 5px;
+}
+.card-content img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+.card-input {
+	margin-top: 30px;
+}
+
+
+/* 
+
+state list
+______________________________________________________________________________ 
+*/
+.state-list {
+	margin-bottom: 30px;
+}
+.state-list-item {
+	border: 1px solid #E8E8E8;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+.state-list-item.active {
+	background-image: linear-gradient(to right,#001cb0 0,#001cb0 40%,#0075cc 100%);
+	color: #fff;
+}
+
+.state-list-item.active  div {
+	background-image: url(../images/icon-tick-reverse.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: relative;
+	left: 110px;
+	top: 5px;
+}
+
+
+/* 
+
+action plan
+______________________________________________________________________________ 
+*/
+.ap-welcome {
+	padding: 20px 20px;
+	text-align: center;
+	background-color: #E8E8E8;
+	padding-bottom: 1px;
+	background-image: linear-gradient(-45deg, #001CB0 0%, #0075CC 100%);
+	margin-bottom: 45px;
+}
+.ap-welcome h1 {
+	font-size: 30px;
+	margin-bottom: 15px;
+	color: #fff;
+}
+.ap-welcome p {
+	margin-bottom: 15px;
+	font-size: 16px;
+	color: #fff;
+}
+.ap-welcome img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+}
+.ap-section {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.ap-section-intro {
+	padding: 15px 20px;
+	text-align: center;
+}
+.ap-section-intro h1 {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.ap-section-intro p {
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+/* 
+
+action plan card styles
+______________________________________________________________________________ 
+*/
+.ap-card {
+	background: #FFFFFF;
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.ap-card-odd {
+	margin-right:8px;
+}
+.ap-card-even {
+	margin-left:8px;
+}
+.ap-card .no {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 44px;
+	height: 44px;
+	width: 44px;
+	background: #50E3C2;
+	border-radius: 22px;
+	margin-bottom: 15px;
+}
+.ap-card h1 {
+	font-size: 20px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+.ap-card h2 {
+	font-size: 18px;
+	color: #001CB0;
+}
+.ap-card p {
+	font-size: 16px;
+	margin-bottom: 36px;	
+}
+.ap-card p.no-space {
+	margin-bottom: 18px;	
+}
+.ap-card .addional-info {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.ap-card button {
+	margin-top: auto;
+}
+.owl-carousel button.owl-dot  {
+	box-shadow: none;
+	width: auto;
+	height: auto;
+}
+.owl-stage {
+	margin-bottom: 20px;
+}
+.owl-item {
+
+}
+#ap-concessions .ap-card {
+	height: 440px;
+}
+#ap-hardship .ap-card {
+	height: 360px;
+}
+
+
+
+
+
+
+
+
+
+
+
